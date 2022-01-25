@@ -1,5 +1,11 @@
 import json
 
+'''
+The complexity of creating the trie data structure is O(n * k) where n is the number of phrases we have and k is the average number of words in the phrase. 
+
+The time complexity of the searching is linear as we only run through the query words for once and look in the trie to find the match. 
+'''
+
 
 class Trie:
     def __init__(self):
